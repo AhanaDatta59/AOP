@@ -7,7 +7,11 @@ public class ShoppingCart {
         //Logging
         //Authentication & Authorization
         //Sanitization of data
-        System.out.println(status);
+        //System.out.println(status);
         System.out.println("Checkout method from shopping cart has been called");
+    }
+
+    public int quantity(){
+        return 2;
     }
 }
